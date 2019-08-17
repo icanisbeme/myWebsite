@@ -4,48 +4,8 @@
   
   body {
     /* font-family: 'Merriweather Sans', sans-serif; */
-    background-color: rgb(191, 246, 248);
+    background-color: rgb(217, 244, 245);
   }
-  
-  
-  
-  /* Container for flexboxes 
-  section {
-    display: -webkit-flex;
-    display: flex;
-    /* color: red; 
-    margin-right: 25%;
-    background-color: rgb(191, 246, 248);
-  } */
-  
-  /* Style the navigation menu */
-  /* profile {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    background: #ccc;
-    padding: 30px;
-    color: blue;
-    margin-left: 25%;
-    background-color: rgb(23, 223, 23);
-  } */
-  
- 
-  
-  /* Style the content 
-  article {
-    -webkit-flex: 3;
-    -ms-flex: 3;
-    flex: 3;
-    background-color: rgb(191, 246, 248);
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Merriweather Sans', sans-serif;
-    margin-left: 25%;
-    /* align-content: right; 
-    /* float: left; 
-
-  } */
   
   h1{
     font-family: 'Pacifico', cursive;  
@@ -100,31 +60,7 @@
 
 }
 
-/* 
-#leftDrop{
-    align-content: center;
-    margin-left: 1%; 
 
-    transition: background-color 0.2s;
-    margin-left: 24px; 
-
-    margin-left: 400px;
-    display: inline-block;
-    padding: 15px 25px 15px 25px;
-    font-size: 24px;
-    font-family: 'Merriweather Sans', sans-serif;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: rgb(127, 218, 142);
-    border: none;
-    border-radius: 15px 0px 0px 15px;
-    box-shadow: 0 9px #999;
-
-    color: black;
-} */
 
 
 #leftDrop:hover{
@@ -138,7 +74,7 @@
 }
 
 .dropbtn {
-  background-color:  rgb(82, 157, 192);
+  background-color:  rgb(115, 189, 223);
   color: white;
   /* padding: 16px; */
   padding: 15px 25px 15px 25px;
@@ -257,7 +193,7 @@
   margin-left: 25%;
   width: 25%;
   text-align: left;
-  align-content: left;
+  /* align-content: left; */
 }
 
 #otherFacts{
@@ -271,10 +207,95 @@
   margin: 15px 15px;
   padding: 8px 5px;
   text-align: left;
+  border-radius: 10px;
 }
 
 .factsHeader{
   margin: 15px 15px;
   padding: 8px 5px;
   
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  /* vertical-align: center; */
+  /* width: 25%; */
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  /* font-size: 8px; */
+  /* text-align: left; */
+}
+
+
+.footerText{
+  font-size: 14px; 
+  text-align: left;
+  margin-left: 5%;
+  display: absolute;
+}
+
+.gitHubLabel{
+  display: none;
+  /* display: block; */
+  font-size: 12px;
+  /* margin-left: -10px; */
+}
+
+.gitHubIcon{
+  width: 36px;
+  height: 36px;
+  /* margin-left: 15px; */
+  display: inline;
+}
+
+.gitHubIcon:hover {
+  width: 72px;
+  height: 72px;
+  transition: all .3s ease-in;
+}
+
+.linkedInIcon{
+  width: 36px;
+  height: 36px;
+  display: inline;
+}
+
+.linkedInIcon:hover{
+  width: 72px;
+  height: 72px;
+  transition: all .3s ease-in;
+  
+}
+
+#gitHubIcon:hover #gitHubLabel{
+  display: block;
+}
+
+
+
+#linkedInLabel{
+  display: none;
+  font-size: 16px;
+}
+
+
+
+
+.showme{ 
+  display: none;
+}
+
+
+
+.showhimLinkedin:hover .showme{
+  display : inline;
+  vertical-align: center;
+}
+
+
+.showhimGithub:hover .showme{
+  display : inline;
+  vertical-align: center;
 }

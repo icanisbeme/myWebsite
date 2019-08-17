@@ -8,37 +8,7 @@ function myFunction() {
 }
 
 
-// function showMyInfo() {
-//   // if (document.getElementById("factsMasterDiv").style.display == "block"){
-//   //   document.getElementById("factsMasterDiv").style.display = "none";
-//   // }
 
-//   document.getElementById("factsMasterDiv").style.display = "block";
-//   // window.scrollBy(0, 750);
-// //   var timerID = setInterval(function() {
-// //     // window.scrollBy(0, 5);
-
-// //     if( window.pageYOffset >= 800 )
-// //         clearInterval(timerID);
-// // }, 13);
-
-
-// var timerID = setInterval(function() {
-//   if( window.pageYOffset <= 1000 )
-//       window.scrollBy(0, 5);
-
-//   else
-//       clearInterval(timerID);
-      
-// }, 1);
-
-//   // var div = document.getElementById("factsMasterDiv");
-//   // div.style.display = div.style.display == "none" ? "block" : "none";
-//   // if(document.getElementById("factsMasterDiv").style.display == "none" ){
-//   //   document.getElementById("factsMasterDiv").style.display = "block";
-//   // }
-
-// }
 
 
 
