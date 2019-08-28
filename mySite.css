@@ -1,113 +1,84 @@
-* {
+*{
     box-sizing: border-box;
-  }
+}
   
-  body {
-    /* font-family: 'Merriweather Sans', sans-serif; */
-    background-color: rgb(217, 244, 245);
-  }
+body {
+  background-color: rgb(217, 244, 245);
+}
   
-  h1{
-    font-family: 'Pacifico', cursive;  
-    font-size: 48px;
-    align-content: center;
-    /* margin-left: 25%; */
-    /* margin-right: 25%; */
-    padding: 0;
-    text-align: center;
-  }
-
-  p{
-    font-size: 24px;
-    font-family: 'Merriweather Sans', sans-serif;
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align: center;
-  }
-
-  .me{
-    height: 464px;
-    width: 336px;
-    /* margin-left: 25%; */
-  }
-
-
-  #nameButton{
-    /* align-content: center; */
-    /* margin-left: 25%; */
-
-    transition: background-color 0.5s;
-
-    display: inline-block;
-    padding: 15px 46px 15px 46px;
-    /* margin-left: 400px; */
-    margin-left: -8px; 
-    
-    font-size: 24px;
-    font-family: 'Merriweather Sans', sans-serif;
-    /* cursor: pointer; */
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: rgb(82, 157, 192);
-    border: none;
-    border-radius: 0px 15px 15px 0px;
-    box-shadow: 0 9px #999;
-
-    color: black;
-
-
+h1{
+  font-family: 'Pacifico', cursive;  
+  font-size: 48px;
+  align-content: center;
+  padding: 0;
+  text-align: center;
 }
 
+p{
+  font-size: 24px;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
 
+.me{
+  height: 464px;
+  width: 336px;
+}
 
+#nameButton{
+  transition: background-color 0.5s;
+  display: inline-block;
+  padding: 15px 46px 15px 46px;
+  margin-left: -8px; 
+  font-size: 24px;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(196, 208, 214);
+  border: none;
+  border-radius: 0px 15px 15px 0px;
+  box-shadow: 0 9px #999;
+  color: black;
+}
 
 #leftDrop:hover{
-    /* font-size: 28px; */
-    background-color: rgb(199, 223, 207);
+  background-color: rgb(199, 223, 207);
 }
 
 #leftDrop:active{
-    transform: translateY(4px);
-    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  box-shadow: 0 5px #666;
 }
 
 .dropbtn {
   background-color:  rgb(115, 189, 223);
   color: white;
-  /* padding: 16px; */
   padding: 15px 25px 15px 25px;
-  /* margin-left: 24px; */
-  /* font-size: 16px; */
   border: none;
   cursor: pointer;
-
   outline: none;
   border-radius: 15px 15px 15px 15px;
   font-size: 24px;
   color: rgb(0, 0, 0);
   font-family: 'Merriweather Sans', sans-serif;
   box-shadow: 0 9px #999;
-  /* align-content: center; */
-  /* align-items: center; */
   text-align: center;
-  /* align-self: center; */
-  /* margin-left: 375px; */
   margin-bottom: 15px;
 }
 
 .dropbtn:hover, .dropbtn:active{
   background-color: rgb(163, 170, 172);
   color: black;
-  /* outline: none; */
 }
 
 
 .dropbtn:active{
   transform: translateY(4px);
   box-shadow: 0 5px #666;
-  /* outline: none; */
 }
 
 .dropdown {
@@ -123,7 +94,6 @@
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  /* margin-left: 400px; */
 }
 
 .dropdown-content a {
@@ -133,42 +103,27 @@
   display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {
+  background-color: #ddd;
+}
 
-.show {display: block;}
-
+.show {
+  display: block;
+}
 
 #picDiv{
-  /* align-content: center; */
-  /* align-items: center; */
   text-align: center;
-  /* align-self: center;   */
 }
 
 #buttonDiv{
-
-  /* align-content: center; */
-  /* align-items: center; */
   text-align: center;
-  /* align-self: center; */
-
 }
 
 
 #triplePic{
-  /* height: 70%;
-  width: 80%; */
-
   height: 580px;
   width: 800px;
   position: relative;
-  /* margin-left: 10%; */
-  /* margin-right: 10%; */
-  /* align-content: center;
-  align-items: center;
-  text-align: center;
-  align-self: center; */
-  /* display: block; */
 }
 
 .barButton{
@@ -193,14 +148,12 @@
   margin-left: 25%;
   width: 25%;
   text-align: left;
-  /* align-content: left; */
+  vertical-align: top;
 }
 
 #otherFacts{
   display: inline-block;
-  /* margin-left: 50%; */
   width: 25%;
-  /* margin-top: -50px; */
 }
 
 .factsBar{
@@ -214,18 +167,15 @@
   margin: 15px 15px;
   padding: 8px 5px;
   
+  
 }
 
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  /* vertical-align: center; */
-  /* width: 25%; */
   background-color: rgba(0, 0, 0, 0);
   color: black;
-  /* font-size: 8px; */
-  /* text-align: left; */
 }
 
 
@@ -238,64 +188,52 @@
 
 .gitHubLabel{
   display: none;
-  /* display: block; */
   font-size: 12px;
-  /* margin-left: -10px; */
 }
 
 .gitHubIcon{
-  width: 36px;
-  height: 36px;
-  /* margin-left: 15px; */
-  display: inline;
-}
-
-.gitHubIcon:hover {
   width: 72px;
   height: 72px;
-  transition: all .3s ease-in;
-}
-
-.linkedInIcon{
-  width: 36px;
-  height: 36px;
+  margin-left: 15px;
   display: inline;
-}
-
-.linkedInIcon:hover{
-  width: 72px;
-  height: 72px;
-  transition: all .3s ease-in;
-  
 }
 
 #gitHubIcon:hover #gitHubLabel{
   display: block;
 }
 
-
-
 #linkedInLabel{
   display: none;
   font-size: 16px;
 }
 
-
-
-
 .showme{ 
   display: none;
 }
-
-
 
 .showhimLinkedin:hover .showme{
   display : inline;
   vertical-align: center;
 }
 
-
 .showhimGithub:hover .showme{
   display : inline;
   vertical-align: center;
+}
+
+div .button {
+  padding: 3px;
+  border: thin solid red; 
+  width: 20%;
+  margin: 4px;
+  display: inline-block;
+}
+
+.holder {
+  text-align: center;
+  margin: auto;
+}
+
+.wrap {
+  margin: auto;
 }
