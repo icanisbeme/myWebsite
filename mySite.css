@@ -22,38 +22,6 @@ p{
   text-align: center;
 }
 
-.me{
-  height: 464px;
-  width: 336px;
-}
-
-#nameButton{
-  transition: background-color 0.5s;
-  display: inline-block;
-  padding: 15px 46px 15px 46px;
-  margin-left: -8px; 
-  font-size: 24px;
-  font-family: 'Merriweather Sans', sans-serif;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: rgb(196, 208, 214);
-  border: none;
-  border-radius: 0px 15px 15px 0px;
-  box-shadow: 0 9px #999;
-  color: black;
-}
-
-#leftDrop:hover{
-  background-color: rgb(199, 223, 207);
-}
-
-#leftDrop:active{
-  transform: translateY(4px);
-  box-shadow: 0 5px #666;
-}
-
 .dropbtn {
   background-color:  rgb(115, 189, 223);
   color: white;
@@ -84,23 +52,6 @@ p{
 .dropdown {
   position: relative;
   display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
 }
 
 .dropdown a:hover {
@@ -170,55 +121,20 @@ p{
   
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0);
-  color: black;
-}
-
-
-.footerText{
-  font-size: 14px; 
-  text-align: left;
-  margin-left: 5%;
-  display: absolute;
-}
-
-.gitHubLabel{
-  display: none;
-  font-size: 12px;
-}
-
-.gitHubIcon{
+.Icons{
   width: 72px;
   height: 72px;
   margin-left: 15px;
   display: inline;
 }
 
-#gitHubIcon:hover #gitHubLabel{
+#Icons:hover #gitHubLabel{
   display: block;
 }
 
 #linkedInLabel{
   display: none;
   font-size: 16px;
-}
-
-.showme{ 
-  display: none;
-}
-
-.showhimLinkedin:hover .showme{
-  display : inline;
-  vertical-align: center;
-}
-
-.showhimGithub:hover .showme{
-  display : inline;
-  vertical-align: center;
 }
 
 div .button {
