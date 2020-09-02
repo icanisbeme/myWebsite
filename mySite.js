@@ -1,17 +1,6 @@
-// function myFunction() {
-//     document.getElementById("myDropdown").classList.toggle("show");
-//   }
-
-
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
-
-
-
-
-
-
 
 window.smoothScroll = function(target) {
   var scrollContainer = target;
