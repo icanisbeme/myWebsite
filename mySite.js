@@ -24,6 +24,5 @@ window.smoothScroll = function(target) {
       c.scrollTop = a + (b - a) / 30 * i;
       setTimeout(function(){ scroll(c, a, b, i); }, 20);
   }
-  // start scrolling
   scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
